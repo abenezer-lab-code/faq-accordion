@@ -20,34 +20,39 @@ body{
  
  width: 100%;
  overflow-x: hidden;
- background-image: url(assets/images/background-pattern-desktop.svg);
+background: var(--Purple-100) url(assets/images/background-pattern-mobile.svg) ;
  background-repeat: no-repeat;
- background-size: 100% auto;
+ background-size: auto auto;
+ background-origin: border-box;
  background-color: var(--Purple-100);
  font-family: "Work Sans",sans-serif;
  min-height: 100vh;
+background-position: top left;
+ background-attachment:scroll;
 }
 .faq-container{
    font-family: "Work Sans",sans-serif;
   background-color: var(--white);
-  margin:140px auto 60px auto;
-  width: 50%;
-padding: 30px 24px 20px 24px;
-
-  border-radius: 18px;
   
+  margin:13rem auto 0  auto;
+
+  width: 85%;
+  border-radius: 10px;
+  padding: 19px 15px;
+  max-width: 500px;
 }
 
 .header{
   display: flex;
   
   margin: 18px 0;
-  padding-left: 2rem;
+  padding: 0;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.4rem;
   gap:3px;
   align-items: center;
-  
+width:20% ;
+
 }
 .header h1{
   font-family: "Work Sans",sans-serif;
@@ -97,49 +102,73 @@ cursor: pointer;
 }
 
 .question-btn:focus{
-  border: 1px solid var(--Purple-600);
-  outline: none;
+  border:none;
+  outline: 1px solid var(--Purple-600);
 }
 .btn-text{
   width: 90%;
-  
-padding: 0;
-}
-@media screen and (max-width:37.5rem) {
-  body{
-  background: var(--Purple-100) url(assets/images/background-pattern-mobile.svg) top / 100% no-repeat fixed;
-  }
-
-.faq-container{
-
-margin-top:120px;
-  background-color: var(--white);
-  
-  width: 85%;
-  border-radius: 10px;
-  padding: 19px 10px;
-}
-  .header{
-    padding: 0;
-  }
-  .btn-text{
-  width: 90%;
+width: 90%;
   
 padding-right: 5rem;
 }
+
+@media screen and (min-width:23.75rem){
+body{
+
+background: var(--Purple-100) url(assets/images/background-pattern-mobile.svg);
+ background-repeat: no-repeat;
+ background-size: 50rem auto;
+
+
 }
-@media screen and (min-width:120rem){
+
 .faq-container{
-  margin-top: calc(100vh - 30rem);
-  margin-bottom: 4px;
+  margin-top: 19rem;
+ 
 }
 
 
 }
-@media screen and (min-width:600px) and (max-width:70rem){
+@media screen and (min-width:31.875rem) {
+  
+body{
+
+background: var(--Purple-100) url(assets/images/background-pattern-desktop.svg) ;
+ background-repeat: no-repeat;
+ background-size: auto auto;
+}
+
 .faq-container{
-  margin-top: 4rem;
+ margin-top: 19rem;
+  
   
 }
+
+
+
+
+
+}
+@media screen and (min-width:118.75rem){
+
+body{
+
+background: var(--Purple-100) url(assets/images/background-pattern-desktop.svg);
+ background-repeat: no-repeat;
+ background-size: 100% auto;
+
+
+
+}
+.faq-container{
+ margin-top: 18%;
+  margin-bottom: 4rem;
+  
+}
+
+
+
+
+
 
 }

@@ -1,6 +1,4 @@
-// select buttons and apply show hide using toogel.
-// apply for keyboard users
-// update button states for screen readeres
+
 const btns = document.querySelectorAll(".question-btn");
 const answers = document.querySelectorAll(".answer");
 const btnsImages  = document.querySelectorAll(".question-btn img");
