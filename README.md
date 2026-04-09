@@ -1,24 +1,6 @@
-# Frontend Mentor - FAQ accordion solution
-
-This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+i build faq accordion with html css and javascript.
 
 ### The challenge
 
@@ -32,14 +14,14 @@ Users should be able to:
 ### Screenshot
 
 ![desktop design](./assets/images/127.0.0.1_5500_index.html(desktop).png)
-![mobie design](./assets/images/127.0.0.1_5500_index.html%20(6).png)
+![mobile design](./assets/images/127.0.0.1_5500_index.html%20(6).png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL ](https://github.com/abenezer-lab-code/faq-accordion.git)
+- Live Site URL: [live site URL](https://abenezer-lab-code.github.io/faq-accordion/)
 
 ## My process
 
