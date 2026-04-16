@@ -38,8 +38,9 @@ background-position: top left;
 
   width: 85%;
   border-radius: 10px;
-  padding: 19px 15px;
+  padding: 1.9rem 1.5rem;
   max-width: 500px;
+  
 }
 
 .header{
@@ -107,7 +108,7 @@ cursor: pointer;
 }
 .btn-text{
   width: 90%;
-width: 90%;
+
   
 padding-right: 5rem;
 }

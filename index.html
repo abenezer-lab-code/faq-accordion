@@ -11,15 +11,16 @@
 </head>
 <body>
 
-<ul class="faq-container">
+<main class="faq-container">
   <header class="header">
-<img src="assets/images/icon-star.svg" class="icon-start"/>
+<img src="assets/images/icon-star.svg" class="icon-start" aria-hidden="true"/>
  <h1>
   FAQs
 </h1>
   </header>
+  <ul>
   <li>
-<button class="question-btn" aria-expanded="false" aria-controls="answer-1">
+<button class="question-btn" aria-expanded="false" aria-controls="answer-1" type="button">
    <span class="btn-text">What is Frontend Mentor, and how will it help me?</span> 
    <img src="assets/images/icon-plus.svg" aria-hidden="true"/>
   </button>
@@ -30,7 +31,7 @@
   </div>
 </li>
 <li>
-  <button class="question-btn" aria-expanded="false" aria-controls="answer-2">
+  <button class="question-btn" aria-expanded="false" aria-controls="answer-2" type="button">
   <span class="btn-text">Is Frontend Mentor free?</span>
   <img src="assets/images/icon-plus.svg" aria-hidden="true"/>
 </button>
@@ -40,7 +41,7 @@
   </div>
 </li>
 <li>
-<button class="question-btn" aria-expanded="false" aria-controls="answer-3">
+<button class="question-btn" aria-expanded="false" aria-controls="answer-3" type="button">
  <span class="btn-text">Can I use Frontend Mentor projects in my portfolio?</span>
 <img src="assets/images/icon-plus.svg" aria-hidden="true"/>
 </button>
@@ -50,7 +51,7 @@
   </div>
 </li>
 <li>
-  <button class="question-btn" aria-expanded="false" aria-controls="answer-4">
+  <button class="question-btn" aria-expanded="false" aria-controls="answer-4" type="button">
     <span class="btn-text">How can I get help if I'm stuck on a Frontend Mentor challenge?</span>
   <img src="assets/images/icon-plus.svg" aria-hidden="true"/>
   </button>
@@ -59,7 +60,8 @@
   channel where you can ask questions and seek support from other community members.
   </div>
   </li>
-</ul>
+  </ul>
+</main>
   
 <script src="script.js"></script>
 </body>
